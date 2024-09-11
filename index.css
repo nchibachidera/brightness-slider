@@ -1,0 +1,26 @@
+.hamburger {
+    display: inline-block;
+}
+.hamburger > div {
+    margin-top: 5px;
+    height: 10px;
+    aspect-ratio: 5/1;
+    border-radius: 20% / 90%;
+    background-color: darkblue;
+    transition: 0.75s linear;
+    font-size: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hamburger:hover > div {
+    margin-top: 0px;
+    border-radius: 0;
+    border-bottom: 2px solid blueviolet;
+    height: 30px;
+    font-size: 12px;
+} 
+hamburger div:hover {
+    background-color: darkblue;
+}
